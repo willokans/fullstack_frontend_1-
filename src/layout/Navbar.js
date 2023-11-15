@@ -6,9 +6,9 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg bg-primary navbar-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             Fullstack User Application
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
